@@ -30,7 +30,6 @@ def find_disarium(start_page, end_page):
 
         if page == total:
             print(page)
-        #print(number_list, index_list, total)
 
 find_disarium(1, 600)
 find_disarium(-1, 10)
