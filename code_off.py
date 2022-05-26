@@ -6,7 +6,7 @@ def find_disarium(start_page, end_page):
         end_page = temp
     
     expected_inputs = []
-    for i in range(3000000):
+    for i in range(1, 3000000):
         expected_inputs.append(str(i))
  
     if (str(start_page) not in expected_inputs) or (str(end_page) not in expected_inputs):
